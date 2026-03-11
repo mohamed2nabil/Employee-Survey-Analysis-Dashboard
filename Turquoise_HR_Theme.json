@@ -1,0 +1,50 @@
+{
+  "name": "Clean Turquoise HR",
+  "dataColors": ["#1ABC9C", "#148F77", "#2C3E50", "#76D7C4", "#A3E4D7"],
+  "background": "#FFFFFF",
+  "visualStyles": {
+    "card": {
+      "*": {
+        "background": [
+          {
+            "show": true,
+            "color": { "solid": { "color": "#F0FDFA" } }, 
+            "transparency": 0
+          }
+        ],
+        "labels": [
+          {
+            "color": { "solid": { "color": "#111827" } },
+            "fontSize": 26,
+            "fontFamily": "Segoe UI Bold"
+          }
+        ],
+        "categoryLabel": [
+          {
+            "color": { "solid": { "color": "#148F77" } },
+            "fontSize": 11
+          }
+        ],
+        "visualTooltip": [ { "type": "Default" } ],
+        "outlines": [ { "show": true, "color": { "solid": { "color": "#5EEAD4" } }, "weight": 1 } ],
+        "dropShadow": [
+          {
+            "show": true,
+            "color": { "solid": { "color": "#D1D5DB" } },
+            "blur": 10,
+            "angle": 135,
+            "distance": 4,
+            "transparency": 20
+          }
+        ],
+        "border": [
+          {
+            "show": true,
+            "color": { "solid": { "color": "#1ABC9C" } },
+            "radius": 12
+          }
+        ]
+      }
+    }
+  }
+}
